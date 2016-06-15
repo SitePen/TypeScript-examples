@@ -4,4 +4,4 @@ class Cat extends Animal {
 
 }
 
-var myPet = new Dog('Barky');
+const myPet = new Dog('Barky');

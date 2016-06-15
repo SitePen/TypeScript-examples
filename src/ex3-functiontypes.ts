@@ -1,6 +1,6 @@
 interface DrawMethod {
-    (target: Node): void
-    (target: number, options?: Object): void
+	(target: Node): void;
+	(target: number, options?: Object): void;
 }
 
 let method: DrawMethod = function(target: any) { };
