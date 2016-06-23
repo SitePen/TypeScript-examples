@@ -1,27 +1,35 @@
 {
   "name": "typescript-examples",
   "version": "0.0.0",
-  "description": "",
+  "description": "Typescript Examples",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/SitePen/TypeScript-examples"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/agubler/TypeScript-examples.git"
+  },
+  "scripts": {
+    "test": "grunt test"
   },
   "devDependencies": {
-    "dojo": "^1.9.9",
-    "dts-generator": "1.4.1",
-    "grunt": "0.4.5",
-    "grunt-contrib-clean": "0.6.0",
-    "grunt-contrib-copy": "0.8.0",
-    "grunt-contrib-watch": "0.6.1",
-    "grunt-text-replace": "0.4.0",
-    "grunt-ts": "3.0.0",
-    "grunt-tslint": "2.0.0",
+    "codecov.io": "^0.1.6",
+    "dojo-loader": ">=2.0.0-beta.5",
+    "dts-generator": "1.7.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-dojo2": ">=2.0.0-beta.7",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-ts": "^5.5.1",
+    "grunt-tslint": "^3.1.0",
+    "grunt-typings": ">=0.1.5",
     "intern": "^3.2.3",
-    "tslint": "^2.4.2",
-    "typescript": "~1.5"
+    "istanbul": "^0.4.3",
+    "remap-istanbul": "^0.6.4",
+    "tslint": "^3.10.2",
+    "typescript": "1.8.10"
   }
 }

@@ -1,8 +1,8 @@
-/// <reference path="./ex2-interfaces"/>
+import { Drawable } from './ex2-interfaces';
 
 let id: number | string;
 
 interface Rectangle extends Drawable {
-    width: number;
-    height: number;
+	width: number;
+	height: number;
 }

@@ -1,8 +1,8 @@
-/// <reference path="./ex2-interfaces"/>
+import { Drawable } from './ex2-interfaces';
 
 enum Color { Red, Green, Blue }
 
-let check: boolean = true;
+let check = true;
 
 const defaultColor: Color = Color.Red;
 

@@ -1,5 +1,5 @@
 {
-	"version": "1.5.0",
+	"version": "1.8.0",
 	"compilerOptions": {
 		"declaration": false,
 		"module": "umd",
@@ -10,11 +10,12 @@
 		"target": "es5"
 	},
 	"filesGlob": [
-		"./typings/tsd.d.ts",
+		"./typings/index.d.ts",
 		"./src/**/*.ts",
 		"./tests/**/*.ts"
 	],
 	"files": [
+		"./typings/index.d.ts",
 		"./src/ex1-typing.ts",
 		"./src/ex2-interfaces.ts",
 		"./src/ex3-functiontypes.ts",
@@ -25,6 +26,8 @@
 		"./src/ex8-modules.ts",
 		"./tests/intern-local.ts",
 		"./tests/intern.ts",
+		"./tests/support/Reporter.ts",
+		"./tests/support/util.ts",
 		"./tests/unit/all.ts"
 	]
 }
